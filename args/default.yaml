@@ -1,0 +1,13 @@
+embedding_size: 64
+train_batch_size: 4096
+eval_batch_size: 4096000
+valid_metric: Recall@20
+metrics: ['Recall', 'NDCG', 'Precision']
+topk: [20]
+n_layers: 2
+neighbour_nums: [25, 20]
+stopping_step: 20
+show_progress: False
+light: 1
+dummy: 1
+l2norm: 0
